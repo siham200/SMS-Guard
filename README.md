@@ -1,14 +1,14 @@
-# SMS Guard 🛡️
+# SMS Guard 
 
 **An Android application for SMS spam and fraud detection using Natural Language Processing and Machine Learning.**
 
-## 📱 Overview
+##  Overview
 
 SMS Guard is an Android application designed to analyze incoming SMS messages and identify potentially suspicious messages, including spam and fraudulent content.
 
 The application integrates machine learning models directly into Android, allowing SMS analysis on the device.
 
-## ✨ Features
+##  Features
 
 - **SMS Classification:** Detects normal and suspicious SMS messages.
 - **Automatic Analysis:** Analyzes incoming SMS messages.
@@ -17,7 +17,7 @@ The application integrates machine learning models directly into Android, allowi
 - **SMS History:** Stores analyzed messages and their classification results.
 - **On-device Inference:** Runs machine learning models locally using ONNX Runtime.
 
-## 🧠 Machine Learning Approach
+##  Machine Learning Approach
 
 SMS Guard uses an NLP-based classification pipeline:
 
@@ -33,7 +33,7 @@ SMS Guard uses an NLP-based classification pipeline:
 - **Classifier:** Support Vector Machine (SVM)
 - **Model Format:** ONNX
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Kotlin
 - Android Studio
@@ -47,7 +47,7 @@ SMS Guard uses an NLP-based classification pipeline:
 - Git and GitHub
 - Git LFS
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 SMS-Guard/
@@ -72,7 +72,7 @@ SMS-Guard/
 └── README.md
 ```
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository:
 
@@ -90,13 +90,13 @@ git clone https://github.com/siham200/SMS-Guard.git
 
 6. Grant the required SMS permissions to enable automatic SMS analysis.
 
-## 🔐 Privacy
+##  Privacy
 
 SMS Guard performs machine learning inference locally on the Android device. SMS content is processed by the application for classification.
 
-## 👩‍💻 Author
+## Author
 
-**Siham Foundi**
+**Siham EL KADDOURI **
 
 GitHub: [@siham200](https://github.com/siham200)
 
