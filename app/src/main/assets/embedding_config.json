@@ -1,0 +1,25 @@
+{
+ "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "max_length": 128,
+ "embedding_dim": 384,
+ "encoder_file": "sentence_encoder_int8.onnx",
+ "encoder_inputs": [
+  "input_ids",
+  "attention_mask"
+ ],
+ "encoder_output": "embedding",
+ "classifier_input": "input",
+ "logreg_file": "sms_emb_logreg.onnx",
+ "svm_file": "sms_emb_svm.onnx",
+ "tokenizer_dir": "tokenizer",
+ "preprocessing": [
+  "1. mettre le texte en minuscules",
+  "2. remplacer les URL (regex https?://\\S+|www\\.\\S+) par ' URL '",
+  "3. remplacer toute suite d'espaces par un seul espace puis strip()",
+  "4. tokeniser avec le tokenizer du dossier tokenizer/ (truncation à max_length)"
+ ],
+ "labels": {
+  "0": "ham (normal)",
+  "1": "spam (suspect)"
+ }
+}
