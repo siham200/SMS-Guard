@@ -97,9 +97,9 @@ SMS Guard performs machine learning inference locally on the Android device. SMS
 ## Author
 
 **Siham EL KADDOURI **
+** Atimad BEL CAID **
+GitHub: [@siham200](https://github.com/siham200)
 
-GitHub: [@siham200](https://github.com/siham200)
-GitHub: [@siham200](https://github.com/siham200)
 ---
 
 *SMS Guard — Helping users identify suspicious SMS messages.*
